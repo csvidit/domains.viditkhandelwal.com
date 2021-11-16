@@ -10,19 +10,33 @@
 		
     <link href="style.css" rel="stylesheet" type="text/css"/>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js"></script>
+		
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 		<link href="/static/V-Interlock-Gradient-Favicon.png" rel="icon">
+
+		<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
   </head>
   <body class="bg-black text-white">
 		<header class="bg-black sticky-top border-bottom border-primary pt-2 pb-2">
 		<div class="d-flex bd-highlight justify-content-between align-self-center">
-  		<div class="p-2 bd-highlight align-self-center">
-				<p class="h4">Domains</p>
-				<p class="h6">Owned by <a class="link-light" href="https://viditkhandelwal.com">Vidit Khandelwal</a></p>
+  		<div class="p-2 bd-highlight align-self-center animate__animated animate__fadeInLeft">
+				<p class="h4">Vidit's Domains</p>
 			</div>
   		<div class="p-2 bd-highlight align-self-center">
+				<button class="btn btn-outline-light" href="" id="menu" onclick="menu()">Menu</button>
+			</div>
+		</div>
+		<div class="d-flex bd-highlight justify-content-end align-self-center d-none" id="menu-items">
+			<div class="btn-group" role="group">
+				<a class="btn btn-outline-light" href="https://viditkhandelwal.com" target="_blank">viditkhandelwal.com</a>
+				<a class="btn btn-outline-light" href="https://cs.viditkhandelwal.com" target="_blank">CS Portfolio</a>
 				<a class="btn btn-outline-light" href="/index.html">Home</a>
 			</div>
 		</div>
