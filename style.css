@@ -1,7 +1,20 @@
 header{
-	background-image: url("https://bio.viditkhandelwal.com/static/small-background-black-elliptical.png")
+	background-image: url("https://bio.viditkhandelwal.com/assets/small-background-black-elliptical.webp")
 }
 
 .bg-black{
 	background-color: black;
+}
+
+@font-face {
+    font-family: 'mattone150';
+    src: url('/static/Mattone-150.woff2') format('woff2'),
+         url('/static/Mattone-150.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.mattone{
+	font-family: 'mattone150';
 }
